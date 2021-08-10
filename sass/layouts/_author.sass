@@ -1,0 +1,38 @@
+.author
+  .img
+    position: relative
+    @media (min-width: $layout-breakpoint-small)
+      float: right
+      width: 50%
+    &:before
+      position: absolute
+      content: ""
+      right: -20px
+      top: 10px
+      width: 70%
+      height: calc(100% - 10px)
+      border: 10px solid $second-color
+      z-index: -1
+      box-sizing: content-box
+  .text
+    @media (min-width: $layout-breakpoint-small)
+      float: right
+      width: 50%
+      padding-right: 20px
+    
+    h1
+      font-size: 2em
+      font-weight: 600
+      margin-top: 10px
+    p
+      line-height: 1.6
+      margin: 10px 0
+    
+    ul
+      margin-top: 20px
+      li
+        margin: 10px 0
+        font-size: 1.1em
+        i
+          padding-left: 10px
+          color: $second-color

@@ -1,0 +1,9 @@
+
+cd /storage/emulated/0/www/BOOK
+
+pug -w pug/index.pug -o ./ -P
+
+sass --watch sass:css
+
+http://themeturn.com/tf-db/bookhunt/bookhunt/index.html
+http://themeturn.com/tf-db/bookhunt/bookhunt/index-2.html

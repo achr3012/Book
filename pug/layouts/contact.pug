@@ -1,0 +1,16 @@
+section.contact
+  .container
+    .head
+      h2 تواصل معي
+      p يهتم هذا الكتاب الجميل المكتوب جيدًا بالطباعة وهو ضروري للمحترفين الذين يعملون بانتظام مع العملاء المحترفين.
+    .content
+      form
+        -
+          var name = "الإسم الكامل",
+              email = "البريد الإلكتروني",
+              message = "رجاءا اترك رسالة"
+        input(type="text" placeholder=name)
+        input(type="text" placeholder=email)
+        textarea(placeholder=message)
+        p * اطمئن، لن نقوم بإرسال بريد عشوائي في صندوق الوارد الخاص بك.
+        button.btn.btn-second إرسال
